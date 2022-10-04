@@ -20,55 +20,59 @@
 
   <body>
     <header class="page-header">
-      <div class="conteiner">
-        <nav>
+      <div class="conteiner main-nav">
+        <nav class="logo-nav">
           <a href="./index.html" lang="en" class="logo"
             ><span class="logo-first-words">Web</span>Studio</a
           >
 
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
+            <li class="item first"><a href="./index.html" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
 
         <ul class="auth-nav list">
-          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
 
     <main>
       <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="button">Замовити послугу</button>
+        <div class="section hero">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="button">Замовити послугу</button>
+        </div>
       </section>
 
       <section class="section">
         <div class="conteiner">
           <h2 hidden class="section-title">Особливості</h2>
           <ul class="features list">
-            <li>
+            <li class="item">
               <h3 class="title">Увага до деталей</h3>
               <p class="features prg">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Пунктуальність</h3>
               <p class="features prg">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Планування</h3>
               <p class="features prg">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Сучасні технології</h3>
               <p class="features prg">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -82,14 +86,32 @@
         <div class="conteiner">
           <h2 class="section-title examples">Чим ми займаємося</h2>
           <ul class="examples list">
-            <li>
-              <img src="./images/what1.jpg" alt="клавіатура на столі" width="370" height="294" />
+            <li class="item">
+              <img
+                src="./images/what1.jpg"
+                alt="клавіатура на столі"
+                width="370"
+                height="294"
+                class="img-examples"
+              />
             </li>
-            <li>
-              <img src="./images/what2.jpg" alt="дівчина за ноутбуком" width="370" height="294" />
+            <li class="item">
+              <img
+                src="./images/what2.jpg"
+                alt="дівчина за ноутбуком"
+                width="370"
+                height="294"
+                class="img-examples"
+              />
             </li>
-            <li>
-              <img src="./images/what3.jpg" alt="малюнок на планшеті" width="370" height="294" />
+            <li class="item">
+              <img
+                src="./images/what3.jpg"
+                alt="малюнок на планшеті"
+                width="370"
+                height="294"
+                class="img-examples"
+              />
             </li>
           </ul>
         </div>
@@ -99,29 +121,53 @@
         <div class="conteiner">
           <h2 class="section-title team">Наша команда</h2>
           <ul class="team list">
-            <li>
-              <img src="./images/igor.jpg" alt="чоловік Ігор" width="270" height="260" />
+            <li class="item">
+              <img
+                src="./images/igor.jpg"
+                alt="чоловік Ігор"
+                width="270"
+                height="260"
+                class="img-team"
+              />
               <div class="team-bgr">
                 <h3 class="team-title title">Ігор Дем'яненко</h3>
                 <p class="team prg" lang="en">Product Designer</p>
               </div>
             </li>
-            <li>
-              <img src="./images/olga.jpg" alt="жінка Ольга" width="270" height="260" />
+            <li class="item">
+              <img
+                src="./images/olga.jpg"
+                alt="жінка Ольга"
+                width="270"
+                height="260"
+                class="img-team"
+              />
               <div class="team-bgr">
                 <h3 class="team-title title">Ольга Рєпіна</h3>
                 <p class="team prg" lang="en">Frontend Developer</p>
               </div>
             </li>
-            <li>
-              <img src="./images/mykola.jpg" alt="чоловік Микола" width="270" height="260" />
+            <li class="item">
+              <img
+                src="./images/mykola.jpg"
+                alt="чоловік Микола"
+                width="270"
+                height="260"
+                class="img-team"
+              />
               <div class="team-bgr">
                 <h3 class="team-title title">Микола Тарасов</h3>
                 <p class="team prg" lang="en">Marketing</p>
               </div>
             </li>
-            <li>
-              <img src="./images/myhail.jpg" alt="чоловік Михайло" width="270" height="260" />
+            <li class="item">
+              <img
+                src="./images/myhail.jpg"
+                alt="чоловік Михайло"
+                width="270"
+                height="260"
+                class="img-team"
+              />
               <div class="team-bgr">
                 <h3 class="team-title title">Михайло Єрмаков</h3>
                 <p class="team prg" lang="en">UI Designer</p>
@@ -133,10 +179,12 @@
     </main>
 
     <footer class="page-footer">
-      <div class="conteiner">
-        <a href="./index.html" lang="en" class="logo-footer"
-          ><span class="logo-first-words">Web</span>Studio</a
-        >
+      <div class="conteiner footer">
+        <div class="box-footer-logo">
+          <a href="./index.html" lang="en" class="logo-footer"
+            ><span class="logo-first-words">Web</span>Studio</a
+          >
+        </div>
 
         <address class="footer-address">
           <ul class="footer-address list">
