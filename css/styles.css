@@ -355,6 +355,14 @@ body {
   text-decoration: none;
 }
 
+.item-footer {
+  display: block;
+}
+
+.item-footer + .item-footer {
+  margin-top: 9px;
+}
+
 .link-place {
   color: var(--main-white);
   letter-spacing: 0.03em;
