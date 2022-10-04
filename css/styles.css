@@ -357,6 +357,7 @@ body {
 
 .item-footer {
   display: block;
+  height: 21px;
 }
 
 .item-footer + .item-footer {
