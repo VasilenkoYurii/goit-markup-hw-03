@@ -447,6 +447,7 @@ body {
 
 .technology-description {
   border: 1px solid #eeeeee;
+  border-top: hidden;
   padding-left: 24px;
   padding-right: 24px;
 }
