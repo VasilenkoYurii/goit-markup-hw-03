@@ -26,7 +26,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -316,12 +316,15 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .team.prg {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  padding-bottom: 30px;
 }
 
 .team-bgr {
